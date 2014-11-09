@@ -1,0 +1,43 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,200);
+@font-face {
+  font-family: 'Raleway' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+}
+body {
+	font-family: 'Raleway', sans-serif;
+	font-size: normal;
+
+
+	.bottom_shadow() {
+		-webkit-box-shadow: 0 3px 20px 5px #B0B0B0;
+		box-shadow: 0 3px 20px 5px #B0B0B0;
+	}
+
+	.main{
+		section {
+			font-size: 2em;
+		}
+	}
+
+	#swaggerloo-header {
+		.menu {
+			a {
+				padding: 0 10px;
+				color: #000000;
+				text-transform: uppercase;
+				font-size: small;
+			}
+		}
+		border-bottom: 1px solid #ccc;
+		padding: 20px 0;
+	}
+} 
+
+@media screen and (max-width: 768px) and (min-width: 281px) {
+	.main {
+		section {
+			font-size: 1.5em !important;
+		}
+	}
+}
